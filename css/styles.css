@@ -55,3 +55,23 @@ body {
     margin-top:100px;
     margin-bottom:100px;
 }
+
+
+#login-button {
+    width: 100px;
+    color: #FFF;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: #3B28CC;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+#login-button:hover{
+    cursor: pointer;
+    background-color: #6855FA;
+    color: #FFF;    
+}
