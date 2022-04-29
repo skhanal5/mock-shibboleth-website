@@ -32,7 +32,6 @@ body {
     background-color: #FFF;
     border-radius: 5px;
     box-sizing: border-box;
-    cursor: pointer;
     box-shadow: 0 2px 4px rgba(0,0,0,.15);
     transition: .3s;
     padding: 25px;
@@ -69,10 +68,15 @@ body {
     outline: none;
     margin-top: 20px;
     transition: .3s;
+    font-family: var(--body-font);
 }
 
 #login-button:hover{
     cursor: pointer;
     background-color: #6855FA;
     color: #FFF;    
+}
+
+p {
+    font-family: var(--body-font);
 }
